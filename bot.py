@@ -1,3 +1,6 @@
+async def main():
+    print("БОТ ЗАПУЩЕН")
+    await dp.start_polling(bot)
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
